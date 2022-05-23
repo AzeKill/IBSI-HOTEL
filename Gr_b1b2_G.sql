@@ -189,8 +189,8 @@ CREATE TABLE `reservationChambre` (
 --
 
 INSERT INTO `reservationChambre` (`idReservation`, `titre`, `prenom`, `nom`, `email`, `nationalite`, `pays`, `telephone`, `typeChambre`, `lit`, `nombreChambre`, `restauration`, `dateEntree`, `dateSortie`, `statut`, `nombreJour`) VALUES
-(1, 'Mr.', 'jacques', 'dupont', 'mathiasmanzano45@gmail.com', 'Belge', 'Albania', '0488370805', 'Guest House', 'Triple', '1', 'Semi-Pension', '2022-05-10', '2022-05-24', 'Conform', 14),
-(2, 'Mr.', 'a', 'a', 'mathiasmanzano37@gmail.com', 'Belge', 'Afghanistan', '0488370805', 'Superior Room', 'Simple', '1', 'Pension-complète', '2022-05-10', '2022-05-24', 'Non Conform', 14);
+(1, 'Mr.', 'jacques', 'dupont', 'mathiasmanzano45@gmail.com', 'Belge', 'Albania', '0', 'Guest House', 'Triple', '1', 'Semi-Pension', '2022-05-10', '2022-05-24', 'Conform', 14),
+(2, 'Mr.', 'a', 'a', 'mathiasmanzano37@gmail.com', 'Belge', 'Afghanistan', '0', 'Superior Room', 'Simple', '1', 'Pension-complète', '2022-05-10', '2022-05-24', 'Non Conform', 14);
 
 --
 -- Index pour les tables déchargées
